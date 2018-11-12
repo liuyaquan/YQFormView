@@ -1,0 +1,6 @@
+framework module Pods_YQFormView {
+  umbrella header "Pods-YQFormView-umbrella.h"
+
+  export *
+  module * { export * }
+}

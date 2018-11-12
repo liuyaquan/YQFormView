@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D866E4F21952AA7000F6531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E4E21952AA7000F6531 /* AppDelegate.m */; };
+		4D866E5221952AA7000F6531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E5121952AA7000F6531 /* ViewController.m */; };
+		4D866E5521952AA7000F6531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D866E5321952AA7000F6531 /* Main.storyboard */; };
+		4D866E5721952AA7000F6531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D866E5621952AA7000F6531 /* Assets.xcassets */; };
+		4D866E5A21952AA7000F6531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D866E5821952AA7000F6531 /* LaunchScreen.storyboard */; };
+		4D866E5D21952AA7000F6531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E5C21952AA7000F6531 /* main.m */; };
+		4D866E6621952AC7000F6531 /* YQFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E6521952AC7000F6531 /* YQFormView.m */; };
+		4D866E6921952AD2000F6531 /* YQFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E6821952AD2000F6531 /* YQFormItem.m */; };
+		4D866E6C21956082000F6531 /* YQFormViewConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E6B21956082000F6531 /* YQFormViewConst.m */; };
+		4D866E6F2195679F000F6531 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E6D2195679E000F6531 /* UIView+Frame.m */; };
+		4D866E722195685D000F6531 /* UITextView+ZWPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E712195685C000F6531 /* UITextView+ZWPlaceHolder.m */; };
+		4D866E7721957B10000F6531 /* UserInfoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E7621957B10000F6531 /* UserInfoEntity.m */; };
+		4D866E7B21959114000F6531 /* YQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E7A21959114000F6531 /* YQViewController.m */; };
+		4D866E8221992C47000F6531 /* NSObject+YQExtensionMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E8121992C47000F6531 /* NSObject+YQExtensionMethod.m */; };
+		4D866E8521994EFB000F6531 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D866E8421994EFB000F6531 /* OtherViewController.m */; };
+		4DF9BC08219955A100D456A9 /* YQBrithDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9BC06219955A100D456A9 /* YQBrithDayView.m */; };
+		4DF9BC0B219956B000D456A9 /* NSString+MyDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9BC0A219956B000D456A9 /* NSString+MyDate.m */; };
+		4DF9BC0E219957CC00D456A9 /* UIButton+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF9BC0D219957CC00D456A9 /* UIButton+FillColor.m */; };
+		B75B1494095917AB3A2161BC /* Pods_YQFormView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA6CAA5C10E4A4F8220D615 /* Pods_YQFormView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D866E4A21952AA7000F6531 /* YQFormView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQFormView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D866E4D21952AA7000F6531 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D866E4E21952AA7000F6531 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D866E5021952AA7000F6531 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D866E5121952AA7000F6531 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D866E5421952AA7000F6531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D866E5621952AA7000F6531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D866E5921952AA7000F6531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D866E5B21952AA7000F6531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D866E5C21952AA7000F6531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D866E6421952AC7000F6531 /* YQFormView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFormView.h; sourceTree = "<group>"; };
+		4D866E6521952AC7000F6531 /* YQFormView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFormView.m; sourceTree = "<group>"; };
+		4D866E6721952AD2000F6531 /* YQFormItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFormItem.h; sourceTree = "<group>"; };
+		4D866E6821952AD2000F6531 /* YQFormItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFormItem.m; sourceTree = "<group>"; };
+		4D866E6A21956082000F6531 /* YQFormViewConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFormViewConst.h; sourceTree = "<group>"; };
+		4D866E6B21956082000F6531 /* YQFormViewConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFormViewConst.m; sourceTree = "<group>"; };
+		4D866E6D2195679E000F6531 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		4D866E6E2195679F000F6531 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		4D866E702195685C000F6531 /* UITextView+ZWPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZWPlaceHolder.h"; sourceTree = "<group>"; };
+		4D866E712195685C000F6531 /* UITextView+ZWPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZWPlaceHolder.m"; sourceTree = "<group>"; };
+		4D866E7321956AB6000F6531 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4D866E7421956AB6000F6531 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		4D866E7521957B10000F6531 /* UserInfoEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoEntity.h; sourceTree = "<group>"; };
+		4D866E7621957B10000F6531 /* UserInfoEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoEntity.m; sourceTree = "<group>"; };
+		4D866E7921959114000F6531 /* YQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQViewController.h; sourceTree = "<group>"; };
+		4D866E7A21959114000F6531 /* YQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQViewController.m; sourceTree = "<group>"; };
+		4D866E7C219592D7000F6531 /* YQKeyboardDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQKeyboardDelegate.h; sourceTree = "<group>"; };
+		4D866E8021992C47000F6531 /* NSObject+YQExtensionMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YQExtensionMethod.h"; sourceTree = "<group>"; };
+		4D866E8121992C47000F6531 /* NSObject+YQExtensionMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YQExtensionMethod.m"; sourceTree = "<group>"; };
+		4D866E8321994EFB000F6531 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		4D866E8421994EFB000F6531 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		4DF9BC06219955A100D456A9 /* YQBrithDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQBrithDayView.m; sourceTree = "<group>"; };
+		4DF9BC07219955A100D456A9 /* YQBrithDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQBrithDayView.h; sourceTree = "<group>"; };
+		4DF9BC09219956B000D456A9 /* NSString+MyDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MyDate.h"; sourceTree = "<group>"; };
+		4DF9BC0A219956B000D456A9 /* NSString+MyDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyDate.m"; sourceTree = "<group>"; };
+		4DF9BC0C219957CC00D456A9 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
+		4DF9BC0D219957CC00D456A9 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
+		8FFB83D1658A08842477959E /* Pods-YQFormView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQFormView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQFormView/Pods-YQFormView.release.xcconfig"; sourceTree = "<group>"; };
+		91A1CB70AFEA8836DC0C9AD3 /* Pods-YQFormView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQFormView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQFormView/Pods-YQFormView.debug.xcconfig"; sourceTree = "<group>"; };
+		ECA6CAA5C10E4A4F8220D615 /* Pods_YQFormView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQFormView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D866E4721952AA7000F6531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75B1494095917AB3A2161BC /* Pods_YQFormView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075DB8F19D4B12962A0DADBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91A1CB70AFEA8836DC0C9AD3 /* Pods-YQFormView.debug.xcconfig */,
+				8FFB83D1658A08842477959E /* Pods-YQFormView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CE0A27817EB785ED979C820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6CAA5C10E4A4F8220D615 /* Pods_YQFormView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D866E4121952AA7000F6531 = {
+			isa = PBXGroup;
+			children = (
+				4D866E4C21952AA7000F6531 /* YQFormView */,
+				4D866E4B21952AA7000F6531 /* Products */,
+				075DB8F19D4B12962A0DADBC /* Pods */,
+				3CE0A27817EB785ED979C820 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D866E4B21952AA7000F6531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D866E4A21952AA7000F6531 /* YQFormView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D866E4C21952AA7000F6531 /* YQFormView */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9BC02219952B200D456A9 /* BaseController */,
+				4D866E78219590F9000F6531 /* Category */,
+				4D866E6321952ABB000F6531 /* FormView */,
+				4DF9BC04219952F500D456A9 /* Controller */,
+				4DF9BC03219952F500D456A9 /* Model */,
+				4DF9BC052199532200D456A9 /* Other */,
+			);
+			path = YQFormView;
+			sourceTree = "<group>";
+		};
+		4D866E6321952ABB000F6531 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				4D866E6421952AC7000F6531 /* YQFormView.h */,
+				4D866E6521952AC7000F6531 /* YQFormView.m */,
+				4D866E6721952AD2000F6531 /* YQFormItem.h */,
+				4D866E6821952AD2000F6531 /* YQFormItem.m */,
+				4D866E6A21956082000F6531 /* YQFormViewConst.h */,
+				4D866E6B21956082000F6531 /* YQFormViewConst.m */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
+		4D866E78219590F9000F6531 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9BC0C219957CC00D456A9 /* UIButton+FillColor.h */,
+				4DF9BC0D219957CC00D456A9 /* UIButton+FillColor.m */,
+				4DF9BC09219956B000D456A9 /* NSString+MyDate.h */,
+				4DF9BC0A219956B000D456A9 /* NSString+MyDate.m */,
+				4D866E6E2195679F000F6531 /* UIView+Frame.h */,
+				4D866E6D2195679E000F6531 /* UIView+Frame.m */,
+				4D866E702195685C000F6531 /* UITextView+ZWPlaceHolder.h */,
+				4D866E712195685C000F6531 /* UITextView+ZWPlaceHolder.m */,
+				4D866E8021992C47000F6531 /* NSObject+YQExtensionMethod.h */,
+				4D866E8121992C47000F6531 /* NSObject+YQExtensionMethod.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4DF9BC02219952B200D456A9 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				4D866E7921959114000F6531 /* YQViewController.h */,
+				4D866E7A21959114000F6531 /* YQViewController.m */,
+				4D866E7C219592D7000F6531 /* YQKeyboardDelegate.h */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		4DF9BC03219952F500D456A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D866E7521957B10000F6531 /* UserInfoEntity.h */,
+				4D866E7621957B10000F6531 /* UserInfoEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DF9BC04219952F500D456A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4DF9BC07219955A100D456A9 /* YQBrithDayView.h */,
+				4DF9BC06219955A100D456A9 /* YQBrithDayView.m */,
+				4D866E5021952AA7000F6531 /* ViewController.h */,
+				4D866E5121952AA7000F6531 /* ViewController.m */,
+				4D866E8321994EFB000F6531 /* OtherViewController.h */,
+				4D866E8421994EFB000F6531 /* OtherViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DF9BC052199532200D456A9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4D866E7321956AB6000F6531 /* Constants.h */,
+				4D866E7421956AB6000F6531 /* PrefixHeader.h */,
+				4D866E5B21952AA7000F6531 /* Info.plist */,
+				4D866E4D21952AA7000F6531 /* AppDelegate.h */,
+				4D866E4E21952AA7000F6531 /* AppDelegate.m */,
+				4D866E5621952AA7000F6531 /* Assets.xcassets */,
+				4D866E5C21952AA7000F6531 /* main.m */,
+				4D866E5321952AA7000F6531 /* Main.storyboard */,
+				4D866E5821952AA7000F6531 /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D866E4921952AA7000F6531 /* YQFormView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D866E6021952AA7000F6531 /* Build configuration list for PBXNativeTarget "YQFormView" */;
+			buildPhases = (
+				EBD4DCC7921C3297141002F2 /* [CP] Check Pods Manifest.lock */,
+				4D866E4621952AA7000F6531 /* Sources */,
+				4D866E4721952AA7000F6531 /* Frameworks */,
+				4D866E4821952AA7000F6531 /* Resources */,
+				0CDB47ABE0CA2BB4543AACDD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQFormView;
+			productName = YQFormView;
+			productReference = 4D866E4A21952AA7000F6531 /* YQFormView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D866E4221952AA7000F6531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ITCoderW;
+				TargetAttributes = {
+					4D866E4921952AA7000F6531 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4D866E4521952AA7000F6531 /* Build configuration list for PBXProject "YQFormView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D866E4121952AA7000F6531;
+			productRefGroup = 4D866E4B21952AA7000F6531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D866E4921952AA7000F6531 /* YQFormView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D866E4821952AA7000F6531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D866E5A21952AA7000F6531 /* LaunchScreen.storyboard in Resources */,
+				4D866E5721952AA7000F6531 /* Assets.xcassets in Resources */,
+				4D866E5521952AA7000F6531 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CDB47ABE0CA2BB4543AACDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YQFormView/Pods-YQFormView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQFormView/Pods-YQFormView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD4DCC7921C3297141002F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQFormView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D866E4621952AA7000F6531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D866E7B21959114000F6531 /* YQViewController.m in Sources */,
+				4DF9BC0E219957CC00D456A9 /* UIButton+FillColor.m in Sources */,
+				4DF9BC08219955A100D456A9 /* YQBrithDayView.m in Sources */,
+				4D866E6621952AC7000F6531 /* YQFormView.m in Sources */,
+				4DF9BC0B219956B000D456A9 /* NSString+MyDate.m in Sources */,
+				4D866E5221952AA7000F6531 /* ViewController.m in Sources */,
+				4D866E722195685D000F6531 /* UITextView+ZWPlaceHolder.m in Sources */,
+				4D866E6C21956082000F6531 /* YQFormViewConst.m in Sources */,
+				4D866E6F2195679F000F6531 /* UIView+Frame.m in Sources */,
+				4D866E5D21952AA7000F6531 /* main.m in Sources */,
+				4D866E6921952AD2000F6531 /* YQFormItem.m in Sources */,
+				4D866E4F21952AA7000F6531 /* AppDelegate.m in Sources */,
+				4D866E8521994EFB000F6531 /* OtherViewController.m in Sources */,
+				4D866E7721957B10000F6531 /* UserInfoEntity.m in Sources */,
+				4D866E8221992C47000F6531 /* NSObject+YQExtensionMethod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D866E5321952AA7000F6531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D866E5421952AA7000F6531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D866E5821952AA7000F6531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D866E5921952AA7000F6531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D866E5E21952AA7000F6531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D866E5F21952AA7000F6531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D866E6121952AA7000F6531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A1CB70AFEA8836DC0C9AD3 /* Pods-YQFormView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQ68N93A3;
+				GCC_PREFIX_HEADER = YQFormView/Other/PrefixHeader.h;
+				INFOPLIST_FILE = YQFormView/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITCoderW.YQFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D866E6221952AA7000F6531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFB83D1658A08842477959E /* Pods-YQFormView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABQ68N93A3;
+				GCC_PREFIX_HEADER = YQFormView/Other/PrefixHeader.h;
+				INFOPLIST_FILE = YQFormView/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITCoderW.YQFormView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D866E4521952AA7000F6531 /* Build configuration list for PBXProject "YQFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D866E5E21952AA7000F6531 /* Debug */,
+				4D866E5F21952AA7000F6531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D866E6021952AA7000F6531 /* Build configuration list for PBXNativeTarget "YQFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D866E6121952AA7000F6531 /* Debug */,
+				4D866E6221952AA7000F6531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D866E4221952AA7000F6531 /* Project object */;
+}
