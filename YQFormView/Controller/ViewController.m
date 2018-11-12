@@ -174,6 +174,8 @@
 
 - (void)birthdaySelect:(YQFormView *)view
 {
+    [self hideKeyboard];
+    
     // 选择生日
     YQBrithDayView *brithView = [[YQBrithDayView alloc] initWithFrame:CGRectMake(0, 0, APP_WIDTH,APP_HEIGHT)];
     brithView.isLimit = YES;
